@@ -31,6 +31,7 @@ public class UITest
 		{
 			 driver=new EdgeDriver();
 		}
+		//changes **************
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
